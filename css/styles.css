@@ -1,30 +1,10 @@
+@import url("normalize.min.css");
+@import url("form.css");
+@import url("vars.css");
+
 * {
   margin: 0px;
   padding: 0px;
-}
-:root {
-  /*___________________________________________________________Studio*/
-  --hero-bg-color: #2e2f42;
-  --head-color: #2e2f42;
-  --content-color: #434455;
-  /*________________________________________________________PORTFOLIO*/
-  --color-body: #434455;
-  --bg-color: #ffffff;
-  /*_____________________________________________________________LOGO*/
-  --color-logo: #4d5ae5;
-  --color-logo-studio: #2e2f42;
-  --footer-logo-color: #f4f4fd;
-  /*_________________________________________________________NAV MENU*/
-  --color-nav-default: #2e2f42;
-  /*___________________________________________________________ADRESS*/
-  --color-address-link-default: #434455;
-  /*__________________________________________________________BUTTONS*/
-  --button-color: #4d5ae5;
-  /*__________________________________________________________Footer*/
-  --social-link-bg-color: #4d5ae5;
-  --fill-color: #f4f4fd;
-  /*__________________________________________________________Customers*/
-  --customer-color: #8e8f99;
 }
 
 /*__________________________________________________________GENERAL BODY SETTINGS_____________________________________________________*/
@@ -347,6 +327,7 @@
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+
 .team-head {
   font-size: 36px;
   line-height: 1.11;
@@ -383,7 +364,9 @@
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
 }
+
 .ourteam-target-link:focus,
 .ourteam-target-link:hover {
   background-color: #404bbf;

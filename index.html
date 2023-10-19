@@ -42,7 +42,16 @@
             <div class="head-align container">
                 <h1 class="head-title">Effective Solutions
                     for Your Business</h1>
-                <button class="order-button" type="button">Order Service</button>
+                <button class="order-button" type="button" data-modal-open>Order Service</button>
+            </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button type="button" class="close-form" data-modal-close>
+                        <svg class="close-btn">
+                            <use href="./images/close-button.svg#close-btn"></use>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </section>
         <!-------------------------------------------------------------GOALS------------------------------------------------------------------>
@@ -361,6 +370,7 @@
             </div>
         </div>
     </footer>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
